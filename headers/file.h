@@ -1,6 +1,7 @@
 #ifndef FILE_H
 #define FILE_H
 
-void copyFile(const char *filePath, const char *targetPath);
+int copyFile(const char *filePath, const char *targetPath);
 
+int readFile(const char *path);
 #endif

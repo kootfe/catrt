@@ -1,0 +1,7 @@
+name="load"
+dpd = { //dependencies
+    { name="cle", prot=3 }, //node name, proirty -> 0 = needed but can skipied, 1 = gives error still works, 2 = gives error and waits for SillyCatLoad reload, 3 = fatal error and instant crash
+    { name="cle2", prot=2}
+}
+fltype = js //optional if src provided (can be any file type that compiler provided on config)
+src = "path/to/file.xyz" //optional, if its not provided it will look name and filetype and try find same file
